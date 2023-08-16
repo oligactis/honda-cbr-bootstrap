@@ -8,3 +8,173 @@ body {
 h1 {
     font-weight: 600;
 }
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.section-spacing {
+    margin-top: 120px;
+}
+
+.section-title-spacing {
+    margin-bottom: 80px;
+}
+
+#header {
+    background-color: #264653;
+    color: whitesmoke;
+}
+
+nav {
+    font-weight: 500;
+}
+
+.myBtn {
+    background-color: #E76F51;
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+.specialText {
+    color: #E76F51;
+}
+
+
+/* Featured Bikes */
+.featured-subtitle {
+    color: #E76F51;
+    font-weight: 600;
+    position: relative;
+}
+
+.featured-subtitle::after {
+    content: "";
+    display: block;
+    width: 65px;
+    height: 1.5px;
+    margin: auto;
+    opacity: .9;
+    position: relative;
+    top: 3px;
+    background-color: #E76F51;
+}
+
+.feature-bike div:nth-child(2n+1) img {
+    filter: grayscale(100%);
+}
+
+
+/* Latest News */
+.latest-news-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 160px;
+    height: 57px;
+    background-color: #E76F51;
+    color: whitesmoke;
+}
+
+.latest-news>div:not(:first-child) .latest-news-btn {
+    background: none;
+    border: 2px solid #E76F51;
+    color: #E76F51;
+    font-weight: 500;
+}
+
+
+/* Happy Client */
+.clients-body {
+    padding: 40px 35px;
+}
+
+.clients-content div {
+    margin-top: 15px;
+}
+
+.clients-content div:first-child {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.clientComments {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #6C6C6C;
+}
+
+.ratingStar {
+    font-size: 1.2rem;
+    color: #E77C40;
+}
+
+.clientsName {
+    font-weight: 500;
+    color: #23A6F0;
+}
+
+
+/* FAQ section */
+.faq-img {
+    width: 456px;
+    height: auto;
+}
+
+.faq-accordion>div:nth-child(n) {
+    border: 1px solid #D5E5FB;
+    margin-bottom: 1.3rem;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black;
+    background: none;
+    border-bottom: none;
+    box-shadow: none
+}
+
+
+/* Bike Servicing (Extra Section) */
+.bike-servicing::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.815);
+
+}
+
+.bike-servicing {
+    color: whitesmoke;
+    position: relative;
+    padding: 50px 0;
+    width: 100%;
+    background: url(../images/bike-servicing.jpg) center center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.bike-servicing-content {
+    position: relative;
+    max-width: 700px;
+    margin: auto;
+    padding: 0 2px;
+}
+
+
+/* Footer */
+footer {
+    background-color: #0B0D17;
+    color: whitesmoke;
+}
+
+.app-download-poster img {
+    width: 9rem;
+    height: auto;
+    margin-bottom: 1rem;
+}
